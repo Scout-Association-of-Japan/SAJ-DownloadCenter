@@ -1,0 +1,155 @@
+html{
+font-family: "Roboto", sans serif;
+font-weight: 400;
+}
+
+.social-area img{
+	margin: auto 15px;
+	width: 3rem;
+}
+
+.download-container{
+	margin: 20px 0 30px 0;
+}
+
+.download-container p{
+	font-size: 2.5rem;
+	margin: 0;
+}
+
+.download-container a{
+	font-size: 1rem;
+	margin: 20px 0px;
+}
+
+#particles-js {
+  position: inherit;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.granim-wrapper {
+    position: relative;
+    text-align: center;
+    width: 100%;
+		height: 100vh;
+}
+
+.granim-wrapper canvas {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.title-container { 
+		padding-top: 35vh;
+		width: 100%;
+	}
+
+.title-container img{ 
+	width: 80vw;
+}
+
+.title-container a{
+	font-size: 1.5rem;
+	position: relative;
+	border-style: solid;
+	border-color: white;
+	border-width: 1.5px;
+	border-radius: 8px;
+	z-index: 1;
+}
+
+.category-header{
+	margin-bottom: 0;
+	margin-top: 5rem;
+}
+
+.thumbnail-box{
+	height: 21rem;
+	background: #eee;
+	margin: 20px auto;    		
+	-webkit-transition: .2s ease-in-out;
+	transition: .2s ease-in-out;
+}
+
+.thumbnail-box a img{
+	padding: 10px;			
+}
+
+.thumbnail-box:hover{	
+		-webkit-transform: rotate(2deg);
+		transform: rotate(2deg);
+}
+
+.thumbnail-box a span{
+	display: block;
+	text-align: center;
+	color: black;
+	font-weight:500;
+	font-size: 1em;
+	padding-bottom: 10px;
+	overflow-wrap: break-word;
+}
+
+.social-share-area{
+	width: 100%;
+}
+
+.social-area img{
+	margin: auto 15px;
+	width: 3.5rem;
+}
+
+@media only screen and (max-width: 770px) {
+.thumbnail-box{
+	height: 25rem;
+}
+}
+
+@media only screen and (max-width: 600px) {
+.category-header{
+	font-size: 2rem;
+}
+.social-area img{
+	margin: 0px;
+	width: 3.5rem;
+}
+.thumbnail-box{
+	height: 15rem;
+}
+.footer-logo{
+	width: 80%;
+}
+.download-container p{
+	font-size: 1.2rem;
+}
+.about p{
+	font-size: 1rem;
+}
+.about h3{
+	font-size: 2rem;
+}
+.about h4{
+	font-size: 1.5rem;
+}
+}
+
+table{
+	width: 100vw;
+}
+
+nav{
+	height: 64px;
+	z-index: 1000;
+}
+
+nav .brand-logo{
+	padding-left: 20px;
+}
