@@ -1,6 +1,6 @@
 # Scout Association of Japan PR tool download center
 
-[![Scout Association of Japan PR tool download center](https://www.scout.or.jp/download/)
+[Scout Association of Japan PR tool download center](https://www.scout.or.jp/download/)
 
 ## 貢献の仕方
 Issues にあるタスクや発見した不具合等の等の開発にご協力ください。
