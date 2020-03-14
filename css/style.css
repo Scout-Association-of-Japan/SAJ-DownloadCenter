@@ -72,7 +72,7 @@ font-weight: 400;
 }
 
 .thumbnail-box{
-	height: 21rem;
+	height: auto;
 	background: #eee;
 	margin: 20px auto;    		
 	-webkit-transition: .2s ease-in-out;
@@ -122,7 +122,7 @@ font-weight: 400;
 	width: 3.5rem;
 }
 .thumbnail-box{
-	height: 15rem;
+	height: auto;
 }
 .footer-logo{
 	width: 80%;
