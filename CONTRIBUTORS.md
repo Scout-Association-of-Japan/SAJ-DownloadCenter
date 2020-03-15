@@ -5,6 +5,6 @@ Contributors
 | Name(link) | Contribution |
 | --- | --- |
 | [07JP27](https://github.com/07JP27) | Project facilitation |
-| [caffi](https://github.com/caffisenna) | Coding |
+| [tta1](https://github.com/caffisenna) | Coding |
 
 ご協力ありがとうございます！！
