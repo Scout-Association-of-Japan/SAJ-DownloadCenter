@@ -44,9 +44,10 @@
 				<p>名刺2</p>
 		        	<img class="responsive-img" src="img/bc2.png">
 		      	<div>
-		      		<a href="https://drive.google.com/file/d/0B7Oe_GKTdkx6dXpCMTJ2T0VJQnM/view?usp=sharing" class="btn download-button"><i class="material-icons left">file_download</i>ダウンロード</a><br />
-		      		Google Driveにジャンプします。<br />
-		      		ダウンロードを行うことにより「<a href="../../about.html">各種使用に関して</a>」に同意したものとします。
+					<input type="checkbox" id="cb-agree" autocomplete="off">
+					<label for="cb-agree"><a href="../../about.html">「各種使用に関して」</a></label>に同意します<br>
+		      		<a href="https://drive.google.com/file/d/0B7Oe_GKTdkx6dXpCMTJ2T0VJQnM/view?usp=sharing" class="btn download-button disabled"><i class="material-icons left">file_download</i>ダウンロード</a><br />
+		      		ダウンロードボタンをクリックするとGoogle Driveにジャンプします。
 		      	</div>
 	      	</div>
 		</div>
@@ -79,6 +80,7 @@
 		<!-- スクリプト -->
 	    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
 	  	<script src="../../js/materialize.min.js"></script>
+		<script src="../../js/agree_button.js"></script>
 	  	<script>
 		$(function(){
 			$(".button-collapse").sideNav();
