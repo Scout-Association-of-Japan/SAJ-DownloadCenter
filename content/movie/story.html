@@ -46,9 +46,10 @@
 		        	<iframe width="853" height="480" src="https://www.youtube.com/embed/eQg1lzFrggY" frameborder="0" allowfullscreen></iframe>
 		      	</div>
 		      	<div>
-		      		<a href="https://drive.google.com/file/d/1PkKnrjHsOZkGeatTE5AOYcpAwXqkk1_I/view?usp=sharing" class="btn download-button"><i class="material-icons left">file_download</i>ダウンロード</a><br />
-		      		Google Driveにジャンプします。<br />
-		      		ダウンロードを行うことにより「<a href="../../about.html">各種使用に関して</a>」に同意したものとします。
+					<input type="checkbox" id="cb-agree" autocomplete="off">
+					<label for="cb-agree"><a href="../../about.html">「各種使用に関して」</a></label>に同意します<br>
+		      		<a href="https://drive.google.com/file/d/1PkKnrjHsOZkGeatTE5AOYcpAwXqkk1_I/view?usp=sharing" class="btn download-button disabled"><i class="material-icons left">file_download</i>ダウンロード</a><br />
+		      		ダウンロードボタンをクリックするとGoogle Driveにジャンプします。
 		      	</div>
 	      	</div>
 		</div>
@@ -81,6 +82,7 @@
 		<!-- スクリプト -->
 	    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
 	  	<script src="../../js/materialize.min.js"></script>
+		]<script src="../../js/agree_button.js"></script>
 	  	<script>
 		$(function(){
 			$(".button-collapse").sideNav();
