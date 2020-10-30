@@ -33,7 +33,7 @@ html{
     position: relative;
     text-align: center;
     width: 100%;
-		height: 100vh;
+	height: 100vh;
 }
 
 .granim-wrapper canvas {
@@ -48,9 +48,9 @@ html{
 }
 
 .title-container { 
-		padding-top: 35vh;
-		width: 100%;
-	}
+	padding-top: 35vh;
+	width: 100%;
+}
 
 .title-container img{ 
 	width: 80vw;
