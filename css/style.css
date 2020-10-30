@@ -23,10 +23,10 @@ html{
 }
 
 #particles-js {
-  position: inherit;
-  display: flex;
-  width: 100%;
-  height: 100%;
+	position: inherit;
+	display: flex;
+	width: 100%;
+	height: 100%;
 }
 
 .granim-wrapper {
@@ -71,35 +71,6 @@ html{
 	margin-top: 5rem;
 }
 
-.thumbnail-box{
-	height: auto;
-	background: #eee;
-	margin: 20px auto;    		
-	-webkit-transition: .2s ease-in-out;
-	transition: .2s ease-in-out;
-}
-
-.thumbnail-box a img{
-	padding: 10px;			
-}
-
-.thumbnail-box:hover{	
-		-webkit-transform: rotate(2deg);
-		transform: rotate(2deg);
-}
-
-.thumbnail-box a span {
-    display: block;
-    padding: 0 10px 10px 10px;
-    overflow: hidden;
-    color: black;
-    font-weight: 500;
-    font-size: 1em;
-    text-align: center;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-}
-
 .social-share-area{
 	width: 100%;
 }
@@ -109,12 +80,6 @@ html{
 	width: 3.5rem;
 }
 
-@media only screen and (max-width: 770px) {
-	.thumbnail-box{
-		height: 25rem;
-	}
-}
-
 @media only screen and (max-width: 600px) {
 	.category-header{
 		font-size: 2rem;
@@ -122,9 +87,6 @@ html{
 	.social-area img{
 		margin: 0px;
 		width: 3.5rem;
-	}
-	.thumbnail-box{
-		height: auto;
 	}
 	.footer-logo{
 		width: 80%;
