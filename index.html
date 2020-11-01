@@ -46,7 +46,9 @@
 					<div>
 						<img src="img/title.svg" />
 					</div>
-					<a class="btn-large transparent" href="#contents">PRツールを見る</a>
+					<div>
+						<a class="btn-large transparent" href="#contents">PRツールを見る</a>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -504,15 +506,11 @@
 				</div>
 			</div>
 
-			<!-- シェアボタンエリア -->
-			<div class="col s12 m12 l12 xl12" style="margin: 4rem 0;">
-				<div class="center">
-					<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-url="https://www.scout.or.jp/download/" data-lang="ja" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-					<iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fwww.scout.or.jp%2Fdownload%2F&layout=button_count&size=small&mobile_iframe=true&width=72&height=20&appId" width=100 height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
-				</div>
+			<div class="social-share center">
+				<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-url="https://www.scout.or.jp/download/" data-lang="ja" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+				<iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fwww.scout.or.jp%2Fdownload%2F&layout=button_count&size=small&mobile_iframe=true&width=72&height=20&appId" width=100 height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
 			</div>
-			<!-- シェアボタンエリア終わり -->
-			
+
 		</div>
 		<!-- コンテンツ終わり -->
 
@@ -542,27 +540,26 @@
 		<!-- フッター終わり -->
 
 		<!-- スクリプト -->
-	    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-	  	<script src="js/materialize.min.js"></script>
-	    <script src="js/particles.js"></script>
+		<script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script src="js/materialize.min.js"></script>
+		<script src="js/particles.js"></script>
 		<script src="js/setting.js"></script>
 		<script src="js/granim.js"></script>
 		<script>
 		var granimInstance = new Granim({
-		   element: '#granim-canvas',
-		   name: 'granim',
-		   opacity: [1, 1],
-		   states : {
-		       "default-state": {
-		           gradients: [
-		               ['#093B2A', '#115740'],
-					   ['#052A1E', '#115740'],
-		               ['#115740', '#093B2A'],
-		           ]
-		       }
-		   }
+			element: '#granim-canvas',
+			name: 'granim',
+			opacity: [1, 1],
+			states: {
+				"default-state": {
+					gradients: [
+						['#093B2A', '#115740'],
+						['#052A1E', '#115740'],
+						['#115740', '#093B2A'],
+					]
+				}
+			}
 		});
-
 
 		$(function(){
 			$(".button-collapse").sideNav();
