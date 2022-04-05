@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<title>PRツールダウンロードセンター | ボーイスカウト日本連盟</title>
+		<link rel="stylesheet" href="../../css/materialize.css">
+		<link rel="stylesheet" href="../../css/style.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	</head>
+
+	<body>
+		<!-- ナビバー -->
+		<nav class="scoutGreen">
+			<div class="nav-wrapper">
+				<a href="../../index.html" class="brand-logo"><img src="../../img/logo2.svg" height="60rem" /></a>
+				<a href="#" data-activates="side-nav" class="button-collapse"><i class="material-icons">menu</i></a>
+				<ul class="right hide-on-med-and-down">
+					<li><a href="../../index.html#guide">ガイド</a></li>
+					<li><a href="../../index.html#comlogo">コミュニケーションロゴ</a></li>
+					<li><a href="../../index.html#movie">ムービー</a></li>
+					<li><a href="../../index.html#poster">ポスター</a></li>
+					<li><a href="../../index.html#booklet">出版物</a></li>
+					<li><a href="../../index.html#karuta">一人前かるた</a></li>
+					<li><a href="../../index.html#100anniv">100周年ロゴ</a></li>
+				</ul>
+				<ul class="side-nav" id="side-nav">
+					<li><a href="../../index.html#guide">ガイド</a></li>
+					<li><a href="../../index.html#comlogo">コミュニケーションロゴ</a></li>
+					<li><a href="../../index.html#movie">ムービー</a></li>
+					<li><a href="../../index.html#poster">ポスター</a></li>
+					<li><a href="../../index.html#booklet">出版物</a></li>
+					<li><a href="../../index.html#karuta">一人前かるた</a></li>
+					<li><a href="../../index.html#100anniv">100周年ロゴ</a></li>
+				</ul>
+			</div>
+		</nav>
+		<!-- ナビバー終わり -->
+
+		<!-- コンテンツ -->
+		<div class="container">
+			<div class="download-container center">
+				<p>日本連盟ポスターR4</p>
+		        	<img class="responsive-img" src="img/saj-poster-r3.jpg">
+		      	<div>
+					<input type="checkbox" id="cb-agree" autocomplete="off">
+					<label for="cb-agree"><a href="../../about.html">「各種使用に関して」</a></label>に同意します<br>
+		      		<a href="https://scout.or.jp/download/dist/poster/saj-2021.pdf" class="btn download-button disabled"><i class="material-icons left">file_download</i>ダウンロード</a><br />
+		      		ダウンロードボタンをクリックするとGoogle Driveにジャンプします。
+		      	</div>
+	      	</div>
+		</div>
+		<!-- コンテンツ終わり -->
+
+		<!-- フッター -->
+		<footer class="page-footer scoutGreen">
+			<div class="container">
+				<div class="center">
+					<img class="footer-logo" id="footer-logo" src="../../img/logo.svg" width="40%" />
+				</div>
+				<div class="row">
+					<div class="social-area center">
+						<a href="https://twitter.com/ScoutingJapan"><img src="../../img/icon/twitter.svg"></a>
+						<a href="https://www.facebook.com/scout.or.jp/?fref=ts"><img src="../../img/icon/facebook.svg"></a>
+						<a href="https://www.youtube.com/user/ScoutingJapan"><img src="../../img/icon/youtube.svg"></a>
+						<a href="https://www.instagram.com/scout_association_of_japan/"><img src="../../img/icon/instagram.svg"></a>
+						<a href="https://github.com/Scout-Association-of-Japan/SAJ-DownloadCenter"><img src="../../img/icon/github.svg"></a>
+					</div>
+				</div>
+			</div>
+			<div class="footer-copyright scoutGreen darken-1">
+				<div class="container">
+					© 2017 Scout Association of Japan
+					<a class="grey-text text-lighten-4 right">ボーイスカウト日本連盟事務局 社会連携・広報部</a>
+				</div>
+			</div>
+		</footer>
+		<!-- フッター終わり -->
+
+		<!-- スクリプト -->
+	    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+	  	<script src="../../js/materialize.min.js"></script>
+		<script src="../../js/agree_button.js"></script>
+	  	<script>
+		$(function(){
+			$(".button-collapse").sideNav();
+		});
+		</script>
+		<!-- スクリプト終わり -->
+	</body>
+</html>
